@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A compact Codex skill for office-ready infographics, Word visuals, PowerPoint slides, and one-page HTML compositions." />
+    <title>gptimg2-4-office — AI visuals for office work</title>
+    <style>
+      :root { --navy:#0f2742; --teal:#12a6a6; --ink:#243342; --paper:#f6f3ed; --white:#fffdfa; --line:#d9e0df; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      main { max-width:1120px; padding:28px 28px 72px; margin:auto; }
+      nav { display:flex; align-items:center; justify-content:space-between; gap:20px; }
+      .brand { display:flex; align-items:center; gap:11px; color:var(--navy); font-size:1.25rem; font-weight:850; letter-spacing:-.04em; }
+      .mark { width:38px; height:44px; border:4px solid var(--navy); border-radius:8px; position:relative; background:linear-gradient(135deg, transparent 0 51%, var(--teal) 52% 67%, transparent 68%); }
+      .mark::after { content:""; position:absolute; width:14px; height:14px; border-radius:50%; background:var(--teal); left:8px; top:8px; box-shadow:12px 15px 0 -3px var(--navy); }
+      .button { display:inline-block; padding:11px 17px; border-radius:10px; background:var(--navy); color:white; text-decoration:none; font-weight:750; }
+      .hero { display:grid; grid-template-columns:1.2fr .8fr; gap:34px; padding:72px 0 52px; align-items:center; }
+      .eyebrow { color:var(--teal); font-weight:800; letter-spacing:.08em; font-size:.78rem; text-transform:uppercase; }
+      h1 { color:var(--navy); font-size:clamp(2.7rem, 6vw, 5.5rem); line-height:.96; letter-spacing:-.06em; margin:.35rem 0 1.2rem; }
+      h2 { color:var(--navy); font-size:clamp(1.7rem, 3vw, 2.35rem); line-height:1.05; letter-spacing:-.04em; }
+      .lead { max-width:590px; font-size:1.18rem; }
+      .art { min-height:350px; border-radius:28px; background:linear-gradient(145deg, #dff3ef, #fdfcf8); padding:30px; display:grid; place-items:center; overflow:hidden; }
+      .art .mark { transform:scale(4); transform-origin:center; box-shadow:0 20px 25px rgba(15,39,66,.14); }
+      .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; margin:30px 0 70px; }
+      .card { background:var(--white); border:1px solid var(--line); border-radius:18px; padding:24px; }
+      .num { color:var(--teal); font-weight:850; font-size:.85rem; }
+      .card h3 { color:var(--navy); margin:.45rem 0; font-size:1.18rem; }
+      .install { background:var(--navy); color:white; padding:36px; border-radius:22px; }
+      pre { margin:18px 0 0; padding:16px; border-radius:12px; overflow:auto; background:#091a2d; color:#dcf7f4; font:14px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; }
+      footer { padding-top:42px; color:#63717c; font-size:.9rem; }
+      @media (max-width:720px) { nav .button { display:none; } .hero { grid-template-columns:1fr; padding-top:54px; } .art { min-height:240px; } .grid { grid-template-columns:1fr; } main { padding-inline:20px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav><div class="brand"><span class="mark" aria-hidden="true"></span>gptimg2-4-office</div><a class="button" href="https://github.com/Atange2023/gptimg2-4-office">View on GitHub</a></nav>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Codex skill for practical visuals</div>
+          <h1>Make office work<br />look exceptional.</h1>
+          <p class="lead">Turn a brief into a clean infographic, presentation visual, Word-document cover, or one-page HTML composition—without needing professional-design workflows.</p>
+          <a class="button" href="#install">Install the skill</a>
+        </div>
+        <div class="art" aria-label="Document and infographic brand mark"><span class="mark" aria-hidden="true"></span></div>
+      </section>
+      <section>
+        <div class="eyebrow">What it helps you do</div>
+        <h2>A repeatable visual workflow for everyday business communication.</h2>
+        <div class="grid">
+          <article class="card"><div class="num">01</div><h3>Choose a clear layout</h3><p>Pick from timelines, process flows, comparisons, and hero-plus-card summaries.</p></article>
+          <article class="card"><div class="num">02</div><h3>Prompt visual assets</h3><p>Generate an illustration, diagram, texture, or hero image without relying on AI-generated copy.</p></article>
+          <article class="card"><div class="num">03</div><h3>Keep copy editable</h3><p>Compose the final visual with real HTML, Word, or PowerPoint text for accuracy and easy revision.</p></article>
+        </div>
+      </section>
+      <section class="install" id="install">
+        <div class="eyebrow" style="color:#61d7d3">Get started</div>
+        <h2 style="color:white">Use it in a single sentence.</h2>
+        <pre>Use $gptimg2-4-office to create a clean 16:9 infographic about [topic].</pre>
+      </section>
+      <footer>Built for practical Word, PowerPoint, and one-page HTML work.</footer>
+    </main>
+  </body>
+</html>
